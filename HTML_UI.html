@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pixel Game AI Studio</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Press Start 2P", cursive;
+        background-image: url("https://i.pinimg.com/736x/78/8a/89/788a898ed0a264ceddc1aafae0bdb1ab.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        color: #fff;
+        overflow-x: hidden;
+      }
+
+      header {
+        text-align: center;
+        padding: 4rem 1rem 1.5rem;
+        background-color: rgba(0, 0, 0, 0.85);
+        color: #00ff66;
+      }
+
+      header h1 {
+        font-size: 2rem;
+        text-shadow: 0 0 10px #00ff66;
+        margin-bottom: 1rem;
+      }
+
+      header p {
+        font-size: 0.8rem;
+        color: #ccc;
+      }
+
+      .get-started {
+        display: inline-block;
+        margin-top: 1.5rem;
+        padding: 0.8rem 1.5rem;
+        background-color: #adff2f;
+        color: black;
+        border: 3px solid #333;
+        border-radius: 8px;
+        text-decoration: none;
+        font-size: 0.75rem;
+      }
+
+      .gr-section {
+        background-color: rgba(27, 27, 58, 0.9);
+        padding: 5rem 1rem;
+        border-top: 5px solid #00ff66;
+        border-bottom: 5px solid #00ff66;
+        text-align: center;
+      }
+
+      .gr-section h2 {
+        font-size: 1.2rem;
+        color: #ffcc00;
+        margin-bottom: 1rem;
+      }
+
+      .gr-section p {
+        font-size: 0.6rem;
+        color: #ccc;
+        margin-bottom: 2rem;
+      }
+
+      .gr-section iframe {
+        width: 100%;
+        max-width: 1000px;
+        height: 700px;
+        border: none;
+        border-radius: 12px;
+        box-shadow: 0 0 20px #00ff66;
+      }
+
+      .gr-full {
+        padding: 0;
+        margin: 0;
+        border: none;
+      }
+
+      .full-iframe {
+        width: 100vw;
+        height: 95vh;
+        border: none;
+        margin: 0;
+        display: block;
+      }
+
+      footer {
+        text-align: center;
+        background: rgba(0, 0, 0, 0.8);
+        padding: 2rem 1rem;
+        color: #888;
+        font-size: 0.6rem;
+      }
+
+      @media (max-width: 768px) {
+        .gr-section iframe,
+        .full-iframe {
+          height: 90vh;
+        }
+
+        header h1 {
+          font-size: 1.2rem;
+        }
+
+        .get-started {
+          font-size: 0.6rem;
+          padding: 0.6rem 1.2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header-content"></div>
+      <h1>🚀 HIRE ME ASAP</h1>
+      <p>You can get all the information related to recruitment here!</p>
+      <a href="#" class="get-started">GET STARTED</a>
+    </header>
+
+    <div class="pixel-ground"></div>
+
+    <!-- FULL-SCREEN GRADIO -->
+    <section class="gr-full">
+      <iframe
+        src="https://bc20b549e7409fe9b1.gradio.live"
+        title="AI Career Chatbot"
+        class="full-iframe"
+        allowfullscreen
+      >
+      </iframe>
+    </section>
+
+    <div class="pixel-ground"></div>
+
+    <!-- Section 2 Gradio -->
+    <section class="gr-section">
+      <h2>🧠 NPC Dialog Generator</h2>
+      <p>Create conversations for characters in seconds.</p>
+      <div id="gradio-app-2">
+        <!-- 여기에 Gradio iframe 추가 가능 -->
+      </div>
+    </section>
+
+    <div class="pixel-ground"></div>
+
+    <!-- Section 3 -->
+    <section class="gr-section">
+      <h2>⚡ Pixel Story Builder</h2>
+      <p>Turn your story ideas into playable plotlines.</p>
+      <div id="gradio-app-3">
+        <!-- 여기에 Gradio iframe 추가 가능 -->
+      </div>
+    </section>
+
+    <div class="pixel-ground"></div>
+
+    <footer>&copy; 2025 Pixel Game AI Studio — Made with 🕹️ and ❤️</footer>
+  </body>
+</html>
